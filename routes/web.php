@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/listaProductos', function () {
     return view('listaProductos');
 });
+
+Route::get('/detalles', function () {
+    return view('detalles');
+});
+
+Route::get('/carrito', function () {
+    return view('carroCompras');
+});
